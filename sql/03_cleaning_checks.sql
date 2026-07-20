@@ -1,0 +1,27 @@
+CREATE TABLE fact_sales AS
+SELECT
+    row_id,
+    order_id,
+    order_date,
+    ship_date,
+    ship_mode,
+    customer_id,
+    customer_name,
+    segment,
+    country,
+    city,
+    state,
+    postal_code,
+    region,
+    product_id,
+    category,
+    sub_category,
+    product_name,
+    sales,
+    quantity,
+    discount,
+    profit,
+    ROUND(CASE WHEN sales = 0 THEN NULL ELSE profit / sales END, 4) AS profit_margin,
+    DATE_TRUNC('month', order_date) AS order_month,
+    (ship_date - order_date) AS ship_days
+FROM superstore_raw;
