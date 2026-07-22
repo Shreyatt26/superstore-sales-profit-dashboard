@@ -87,14 +87,14 @@ Analysis of discount impact, sub-category margin issues, and low-profit areas.
 Top and bottom customers, top-selling products, repeat customer behavior, and AOV analysis.
 
 ## Key Insights
-Add 4–6 findings here after building the dashboard. Example placeholders:
+**Add 4–6 findings here after building the dashboard. Example placeholders:
 - The highest-sales region did not always produce the highest profit.
 - Some sub-categories showed strong revenue but negative margins.
 - Higher discount bands were associated with weaker profitability.
 - A small group of customers contributed a disproportionate share of revenue.
 
 ## Screenshots
-Add dashboard screenshots here.
+**after dashboards are completed
 
 ## How to Use
 1. Download the dataset from Kaggle.
@@ -103,8 +103,6 @@ Add dashboard screenshots here.
 4. Open the Power BI file and refresh the data model.
 5. Review the dashboard pages and filters.
 
-## Resume Bullet
-Built a production-style analytics project using SQL and Power BI to clean, model, and visualize Superstore retail data, delivering KPI dashboards on sales, profit, discount impact, customer value, and regional performance.
 
 ## Future Improvements
 - Add customer segmentation (RFM)
